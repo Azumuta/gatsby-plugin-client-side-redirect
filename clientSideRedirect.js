@@ -20,5 +20,5 @@ module.exports = function getMetaRedirect(toPath) {
     }
   }
 
-  return `<script>window.location.href="${url}"</script>`;
+  return `<script>window.location.pathname="${url}"</script>`;
 };
