@@ -20,5 +20,5 @@ module.exports = function getMetaRedirect(toPath) {
     }
   }
 
-  return `<script>window.location.pathname = window.location.origin + "${url}" + window.location.search</script>`;
+  return `<script>window.location.href = window.location.origin + "${url}" + window.location.search</script>`;
 };
